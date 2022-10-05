@@ -1,0 +1,205 @@
+.section>table td, .section>table th, .widget>table td, .widget>table th, .footer>table td, .footer>table th, .form_container .before_section>div p{
+    /*border-color: #009ee0;
+    color: #009ee0;*/
+}
+.container.form_container {
+    max-width: 1300px;
+}
+.header_1 {
+    height: 100px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.header_1>.col-md-8{
+    text-align: center;
+}
+.header_2 {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.header_2 .col-md-10>input[type="checkbox"]{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.header_2 .col-md-8 .row>.col-md-1 {
+    margin-right: 40px;
+}
+.header_2 .col-md-4>.row>.col-md-8>table td {
+    padding: 15px;
+    border: 1px solid black;
+}
+.header_2 .col-md-8 .row>.col-md-1>p {
+    text-transform: uppercase;
+    /*font-weight: bold;*/
+}
+.header_2 .col-md-8 .row>.col-md-10 {
+    border: 1px solid black;
+}
+.header_2 .col-md-8 .row>.col-md-1>p:nth-child(2) {
+    transform: translateY(90px);
+}
+.form_container .header_2>div.col-md-4>.row>div.col-md-8>p {
+    border-bottom: 1px solid black;
+    width: 90%;
+}
+.form_container .header_2>div.col-md-4>div:nth-child(3)>div.col-md-8>p, .form_container .header_2>div.col-md-4>div:nth-child(4)>div.col-md-8>p {
+    letter-spacing: 8px;
+}
+.before_section {
+    margin-bottom: 5px;
+}
+.section>table, .widget>table, .footer>table {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.section>table td, .section>table th, .widget>table td, .widget>table th, .footer>table td, .footer>table th{
+    border: 1px solid;
+    padding: 16px 8px;
+    text-align: center;
+}
+.section>table thead>tr>th:nth-child(3) {
+    transform: rotate(270deg) translate(-8px, -2px);
+    /* width: 10px; */
+    padding: 0px;
+    max-width: 30px;
+}
+.section>table thead>tr>th:nth-child(5), .section>table thead>tr>th:nth-child(7) {
+    width: 10px;
+    padding: 2px;
+}
+.form_container .before_section>div {
+    padding: 0;
+}
+.form_container .before_section>div p {
+    margin: 0;
+}
+.form_container .header_2>div.col-md-4>.row>div.col-md-4 {
+    padding-left: 0;
+    flex: 0 0 29%;
+    margin-left: 15px;
+}
+.section tbody>tr:nth-child(14)>td {
+    text-align: left;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+.section>table>tbody>tr:nth-child(14)>td>.amount_in_words{
+    font-weight: 400;
+}
+.widget {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.widget thead>tr>th:nth-child(1) {
+    width: 80%;
+}
+.widget tbody>tr:nth-child(1)>td:nth-child(2), .widget tbody>tr:nth-child(2)>td:nth-child(2) {
+    /*border-bottom: 0;*/
+}
+.widget tbody>tr:nth-child(2)>td:nth-child(2), .widget tbody>tr:nth-child(3)>td:nth-child(2) {
+    border-top: 0;
+}
+.before_section>div.col-md-8>div.row>div.col-md-1 {
+    flex: 0 0 10% !important;
+    max-width: 10% !important;
+}
+.before_section>div.col-md-4>div.row>div.col-md-3 {
+    flex: 0 0 28% !important;
+    max-width: 28% !important;
+}
+.before_section>div.col-md-4>div.row>div.col-md-9 {
+    flex: 0 0 72% !important;
+    max-width: 72% !important;
+}
+.section, .widget {
+    /*margin-bottom: 40px;*/
+}
+.before_section>.col-md-8 .col-md-10>p, .before_section>.col-md-4 .col-md-9>p {
+    border-bottom: 1px solid black;
+}
+
+.before_section>.col-md-4 .col-md-9>p {
+    width: 90%;
+    margin-left: 30px;
+}
+.footer tbody>tr:nth-child(2)>td:nth-child(2) {
+    padding: 18px 0 !important;
+    width: 100px !important;
+}
+.section>table>tbody>tr:nth-child(13)>td:nth-child(1), .section>table>tbody>tr:nth-child(13)>td:nth-child(2), .section>table>tbody>tr:nth-child(13)>td:nth-child(3), .section>table>tbody>tr:nth-child(13)>td:nth-child(4), .section>table>tbody>tr:nth-child(13)>td:nth-child(5), .section>table>tbody>tr:nth-child(13)>td:nth-child(6), .section>table>tbody>tr:nth-child(13)>td:nth-child(7), .section>table>tbody>tr:nth-child(13)>td:nth-child(8), .section>table>tbody>tr:nth-child(13)>td:nth-child(9) {
+    border-right: 0;
+}
+.section>table>tbody>tr:nth-child(13)>td:nth-child(2), .section>table>tbody>tr:nth-child(13)>td:nth-child(3), .section>table>tbody>tr:nth-child(13)>td:nth-child(4), .section>table>tbody>tr:nth-child(13)>td:nth-child(5), .section>table>tbody>tr:nth-child(13)>td:nth-child(6), .section>table>tbody>tr:nth-child(13)>td:nth-child(7), .section>table>tbody>tr:nth-child(13)>td:nth-child(8), .section>table>tbody>tr:nth-child(13)>td:nth-child(9), .section>table>tbody>tr:nth-child(13)>td:nth-child(10) {
+    border-left: 0;
+}
+.form_container .header_2>div.col-md-4>.row>div.col-md-8>p .date_field {
+    border-bottom: 1px solid black;
+    padding: 0px 10px;
+    font-weight: bold;
+}
+.form_container .header_2>div.col-md-4>div:nth-child(2)>div.col-md-8>p {
+    border: 0 !important;
+}
+.widget tbody>tr:nth-child(1)>td:nth-child(1) {
+    text-align: justify;
+}
+.bank_project {
+    position: absolute;
+    top: 1em;
+    right: 0em;
+}
+.section>table>tbody>tr:nth-child(13)>td:nth-child(9), .section>table>tbody>tr:nth-child(13)>td:nth-child(11), .section>table>tbody>tr:nth-child(13)>td:nth-child(13) {
+    font-weight: bold !important;
+    font-size: 18px !important;
+}
+.footer>table th, .footer>table>tbody>tr:nth-child(1)>td{
+    padding: 5px !important;
+}
+.footer>table td {
+    /* padding: 30px 8px !important; */
+    padding: 18px 8px !important;
+}
+.footer>table>tbody>tr:nth-child(2)>td {
+    border-bottom: 0;
+}
+.footer>table>tbody>tr:nth-child(2)>td:nth-child(1), .footer>table>tbody>tr:nth-child(2)>td:nth-child(2) {
+    border-bottom: 1px solid black;
+}
+.footer>table>tbody>tr:nth-child(3)>td {
+    border-top: 0;
+}
+.section{
+    margin-left: 70px !important;
+}
+.section>table>thead>tr>th:nth-child(2) {
+    width: 40em;
+}
+.section td.debit_active {
+    text-align: left;
+}
+.section>table>thead>tr>th:nth-child(4), .section>table>thead>tr>th:nth-child(6) {
+    width: 12em !important;
+}
+.section>table>tbody>tr>td:nth-child(9), .section>table>tbody>tr>td:nth-child(11), .section>table>tbody>tr>td:nth-child(13){
+    font-size: 18px;
+}
+body>div:nth-child(4)>a>img {
+    display: none !important;
+}
+.footer>table>tbody>tr:nth-child(2)>td:nth-child(2) {
+    font-size: 14px;
+    font-weight: bold;
+    width: 110px !important;
+}
+.widget>table td, .widget>table th {
+    padding: 10px 8px !important;
+}
+td.empty_val {
+    padding: 28px 8px !important;
+}
+.section>table td:nth-child(10) {
+    max-width: 0;
+}
+.section>table tbody>tr:nth-last-child(2)>td:nth-child(10) {
+    transform: translateX(-40px);
+}
